@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kyungmin Kang | Data Scientist & Economist
+title: KM Kang | Data Scientist & Economist
 ---
 
 <!-- Hero Section -->
@@ -22,13 +22,13 @@ title: Kyungmin Kang | Data Scientist & Economist
 </section>
 
 <!-- About Section -->
-<section class="about">
+<section class="about" id="about">
   <h3>About Me</h3>
-  <p>Hi. I’m <strong>Kyungmin Kang</strong>, a Ph.D. in Economics with 10+ years experience turning data into actionable insights. With a strong foundation in causal inference, machine learning, and dynamic modeling, I now focus on building AI-powered tools across finance, education, and research.</p>
+  <p>Hi. I’m <strong>KM Kang</strong>, a Ph.D. in Economics with 10+ years experience turning data into actionable insights. With a strong foundation in causal inference, machine learning, and dynamic modeling, I now focus on building AI-powered tools across finance, education, and research.</p>
 </section>
 
 <!-- Projects Section -->
-<section class="projects">
+<section class="projects" id="projects">
   <h3>Projects</h3>
   <div class="project-grid">
     <div class="project-card">

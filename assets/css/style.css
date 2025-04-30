@@ -2,30 +2,36 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background: #fdfdfd;
+    color: #222;
+    background: #fff;
   }
   
   header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 1rem 2rem;
-    background: white;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    background: #111827; /* dark navy */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   }
   
   .nav-right a {
-    margin-left: 1.2rem;
+    margin-left: 1.5rem;
     text-decoration: none;
-    color: #333;
+    color: #f3f4f6; /* light gray text */
     font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .nav-right a:hover {
+    color: #f59e0b; /* amber hover */
   }
   
   .resume-btn {
-    background: #111;
-    color: white;
-    padding: 0.4rem 0.8rem;
+    background: #f59e0b; /* amber */
+    color: #111827;
+    padding: 0.4rem 0.9rem;
     border-radius: 5px;
+    font-weight: 600;
   }
   
   .hero {
@@ -44,59 +50,74 @@ body {
   .hero-image img {
     max-width: 200px;
     border-radius: 12px;
+    border: 3px solid #f59e0b;
   }
   
   .hero-buttons {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
   }
   
   .hero-buttons .btn {
-    background: #111;
+    background: #10b981; /* emerald */
     color: white;
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 1.1rem;
     margin-right: 1rem;
-    border-radius: 5px;
+    border-radius: 6px;
     text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
   }
   
   .hero-buttons .btn.secondary {
-    background: #eee;
-    color: #111;
+    background: #e5e7eb;
+    color: #111827;
+  }
+  
+  .hero-buttons .btn:hover {
+    background: #059669; /* deeper emerald */
   }
   
   .about, .projects, .contact {
-    padding: 2rem;
-    max-width: 800px;
+    padding: 2.5rem;
+    max-width: 900px;
     margin: auto;
   }
   
   .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
+    gap: 1.5rem;
+    margin-top: 1.2rem;
   }
   
   .project-card {
-    background: white;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    background: #f9fafb;
+    padding: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+    transition: transform 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-4px);
   }
   
   .tags span {
     display: inline-block;
-    background: #f0f0f0;
+    background: #d1fae5;
+    color: #065f46;
     margin: 0.2rem;
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem 0.6rem;
     font-size: 0.8rem;
     border-radius: 4px;
+    font-weight: 600;
   }
   
   footer {
     text-align: center;
     padding: 2rem 1rem;
     font-size: 0.9rem;
-    color: #777;
+    color: #6b7280;
+    background: #f3f4f6;
   }
   

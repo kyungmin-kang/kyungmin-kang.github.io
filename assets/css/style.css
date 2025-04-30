@@ -34,8 +34,6 @@ body {
     font-weight: 600;
   }
   
-
-
   .hero {
     background: #fff;
     padding: 3rem 2rem;
@@ -169,74 +167,25 @@ body {
     background: #f3f4f6;
   }
   
-  
-  .blog-index {
-    padding: 2rem;
-    max-width: 800px;
-    margin: auto;
+  .contact-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
   }
   
-  .post-list {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .post-list li {
-    margin-bottom: 1rem;
-  }
-  
-  .post-list a {
+  .contact-icons a {
+    text-decoration: none;
+    color: #1f2937;
     font-weight: 600;
-    color: #1d4ed8; /* blue-600 */
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
   }
   
-  .post-list a:hover {
-    text-decoration: underline;
-  }
-  
-  .post-date {
-    display: block;
-    font-size: 0.85rem;
-    color: #6b7280;
-  }
-  
-  .recent-posts {
-    padding: 2.5rem;
-    max-width: 900px;
-    margin: auto;
-  }
-  
-  .post-snippets {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .post-snippets li {
-    margin-bottom: 2rem;
-  }
-  
-  .post-snippets a {
-    font-weight: 700;
-    color: #1d4ed8;
-    text-decoration: none;
-  }
-  
-  .post-snippets a:hover {
-    text-decoration: underline;
-  }
-  
-  .post-snippets .post-date {
-    font-size: 0.85rem;
-    color: #6b7280;
-    display: block;
-    margin: 0.3rem 0;
-  }
-
-  .contact-icons img.icon {
+  .contact-icons .icon {
     width: 20px;
     height: 20px;
-    margin-right: 8px;
-    vertical-align: middle;
   }
   

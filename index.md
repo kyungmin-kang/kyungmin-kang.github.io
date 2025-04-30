@@ -87,7 +87,7 @@ My academic research focuses on causal evaluations of federal policies and dynam
 </section>
 
 <!-- Contact Section -->
-<section class="contact" id="contact">
+<!-- <section class="contact" id="contact">
   <h3>Contact</h3>
   <p>If you're working at the intersection of AI, economics, and data — I'd love to connect.</p>
   <p>Email: <a href="mailto:kyungmin.kang@outlook.com">kyungmin.kang@outlook.com</a></p>
@@ -95,6 +95,6 @@ My academic research focuses on causal evaluations of federal policies and dynam
     <a href="https://github.com/kyungmin-kang">GitHub</a> |
     <a href="https://linkedin.com/in/kmkang">LinkedIn</a>
   </div>
-</section>
+</section> -->
 
 <link rel="stylesheet" href="/assets/css/style.css">

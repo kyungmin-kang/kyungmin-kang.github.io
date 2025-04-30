@@ -34,48 +34,6 @@ body {
     font-weight: 600;
   }
   
-  .hero {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 3rem 2rem;
-    align-items: center;
-    background: #fff;
-  }
-  
-  .hero-text {
-    flex: 1;
-    min-width: 280px;
-  }
-  
-  .hero-image img {
-    max-width: 200px;
-    border-radius: 12px;
-    border: 3px solid #f59e0b;
-  }
-  
-  .hero-buttons {
-    margin-top: 1.5rem;
-  }
-  
-  .hero-buttons .btn {
-    background: #10b981; /* emerald */
-    color: white;
-    padding: 0.6rem 1.1rem;
-    margin-right: 1rem;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: background 0.3s;
-  }
-  
-  .hero-buttons .btn.secondary {
-    background: #e5e7eb;
-    color: #111827;
-  }
-  
-  .hero-buttons .btn:hover {
-    background: #059669; /* deeper emerald */
-  }
   
   .about, .projects, .contact {
     padding: 2.5rem;

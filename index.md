@@ -9,7 +9,13 @@ title: Kyungmin Kang | Data Scientist & Economist
     <div class="hero-text">
       <h1>Kyungmin Kang</h1>
       <h2>Ph.D. Economist & Data Scientist</h2>
-      <p>Bridging Causal Inference, AI, and Real-World Product Impact</p>
+      <p>Ph.D. in Economics, Johns Hopkins University</p>
+      <ul class="hero-skills">
+        <li>Causal Inference & Machine Learning</li>
+        <li>Dynamic Modeling & Structural Estimation</li>
+        <li>LangChain · HuggingFace · D3.js · SQL · Python</li>
+        <li>10+ Years Data-Driven Research & 5+ Years Teaching</li>
+      </ul>
       <div class="hero-buttons">
         <a href="/resume.pdf" class="resume-btn">Resume</a>
         <a href="#contact" class="btn secondary">Contact Me</a>
@@ -20,6 +26,9 @@ title: Kyungmin Kang | Data Scientist & Economist
     </div>
   </div>
 </section>
+
+
+
 
 <!-- About Section -->
 <section class="about" id="about">

@@ -1,0 +1,102 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #fdfdfd;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .nav-right a {
+    margin-left: 1.2rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .resume-btn {
+    background: #111;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+  }
+  
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 2rem;
+    align-items: center;
+    background: #fff;
+  }
+  
+  .hero-text {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .hero-image img {
+    max-width: 200px;
+    border-radius: 12px;
+  }
+  
+  .hero-buttons {
+    margin-top: 1rem;
+  }
+  
+  .hero-buttons .btn {
+    background: #111;
+    color: white;
+    padding: 0.6rem 1rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .hero-buttons .btn.secondary {
+    background: #eee;
+    color: #111;
+  }
+  
+  .about, .projects, .contact {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .tags span {
+    display: inline-block;
+    background: #f0f0f0;
+    margin: 0.2rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 4px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  

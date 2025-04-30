@@ -5,8 +5,11 @@ title: Kyungmin Kang | Data Scientist & Economist
 
 <!-- Hero Section -->
 <section class="hero">
-  <div class="hero-content">
-    <div class="hero-text">
+  <div class="hero-wrapper">
+    <div class="hero-left">
+      <img src="/assets/img/headshot.jpg" alt="KM Kang Headshot">
+    </div>
+    <div class="hero-right">
       <h1>Kyungmin Kang</h1>
       <h2>Ph.D. Economist & Data Scientist</h2>
       <p>Ph.D. in Economics, Johns Hopkins University</p>
@@ -20,9 +23,6 @@ title: Kyungmin Kang | Data Scientist & Economist
         <a href="/resume.pdf" class="resume-btn">Resume</a>
         <a href="#contact" class="btn secondary">Contact Me</a>
       </div>
-    </div>
-    <div class="hero-image">
-      <img src="/assets/img/headshot.jpg" alt="KM Kang Headshot">
     </div>
   </div>
 </section>

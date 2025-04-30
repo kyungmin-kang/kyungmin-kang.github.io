@@ -23,7 +23,7 @@ title: Kyungmin Kang | Data Scientist & Economist
       </ul>
       <div class="hero-buttons">
         <a href="/resume.pdf" class="resume-btn">Resume</a>
-        <a href="#contact" class="btn secondary">Contact Me</a>
+        <!-- <a href="#contact" class="btn secondary">Contact Me</a> -->
       </div>
     </div>
   </div>

@@ -113,6 +113,9 @@ My academic research focuses on causal evaluations of federal policies and dynam
       </div>
     </div>
     {% endfor %}
+  </div>  
+  <div style="margin-top: 1rem; text-align: center;">
+    <a href="/blog" class="btn">View All Writing</a>
   </div>
 </section>
 

@@ -16,7 +16,7 @@ title: Blog | KM Kang
   </div>
 
   <div class="writing-grid">
-    {% assign sorted_posts = site.posts | sort: 'date' %}
+    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
     {% for post in sorted_posts %}
       <div class="writing-card" id="{{ post.tags[0] }}">
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>

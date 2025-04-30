@@ -147,6 +147,48 @@ body {
   .project-card:hover {
     transform: translateY(-4px);
   }
+  .project-card.private {
+    cursor: default;
+    transform: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+  }
+  
+  .writing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.2rem;
+  }
+  
+  .writing-card {
+    background: #f9fafb;
+    padding: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .writing-card h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .writing-card a {
+    text-decoration: none;
+    color: #1d4ed8;
+    font-weight: 600;
+  }
+  
+  .writing-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .writing-card .post-date {
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
   
   .tags span {
     display: inline-block;

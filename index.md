@@ -49,7 +49,7 @@ My academic research focuses on causal evaluations of federal policies and dynam
 </section>
 
 <!-- Latest Writing Section -->
-<section class="recent-posts">
+<!-- <section class="recent-posts">
   <h3>Recent Writing</h3>
   <ul class="post-snippets">
     {% for post in site.posts limit:3 %}
@@ -62,27 +62,57 @@ My academic research focuses on causal evaluations of federal policies and dynam
     {% endfor %}
   </ul>
   <a href="/blog" class="btn">View All Posts</a>
-</section>
+</section> -->
 
 
 <!-- Projects Section -->
 <section class="projects" id="projects">
   <h3>Projects</h3>
+  <div class="project-grid">
     <div class="project-card">
+      <h4>Stock Price Visualizer</h4>
+      <p>Interactive D3.js chart showing prices across timeframes.</p>
+      <div class="tags"><span>D3.js</span><span>JavaScript</span><span>Finance</span></div>
+      <a href="https://github.com/kyungmin-kang/stock-price-visualizer" class="btn project-link" target="_blank">View Project</a>
+    </div>
+    <div class="project-card private">
+      <h4>InvestGPT</h4>
+      <p>LLM-powered chatbot surfacing investment insights from SEC filings.</p>
+      <div class="tags"><span>LangChain</span><span>PostgreSQL</span><span>Finance</span></div>
+      <div class="private-label">Code private</div>
+    </div>
+    <div class="project-card private">
       <h4>RL vs Structural Modeling</h4>
       <p>Comparing reinforcement learning vs structural models in economic environments.</p>
-      <div class="tags"><span>Python</span><span>RL</span><span>Dynamic Structural Models</span></div>
-    </div>  <div class="project-grid">
-    <div class="project-card">
-      <h4>InvestGPT</h4>
-      <p>LLM-powered chatbot for investment insights using SEC filings and price data.</p>
-      <div class="tags"><span>Python</span><span>PostgreSQL</span><span>LangChain</span></div>
+      <div class="tags"><span>Python</span><span>RL</span><span>Dynamic Models</span></div>
+      <div class="private-label">Code private</div>
     </div>
-    <div class="project-card">
-      <h4>13F Visualizer</h4>
-      <p>Track top funds’ portfolio changes with visual summaries.</p>
-      <div class="tags"><span>D3.js</span><span>PostgreSQL</span><span>Finance</span></div>
+    <div class="project-card private">
+      <h4>PronounceGPT</h4>
+      <p>Personalized Chinese pronunciation tutor with scoring and feedback.</p>
+      <div class="tags"><span>React</span><span>Edge AI</span><span>Docker</span></div>
+      <div class="private-label">Code private</div>
     </div>
+  </div>
+</section>
+
+
+<!-- Recent Writing Section -->
+<section class="recent-posts" id="writing">
+  <h3>Recent Writing</h3>
+  <div class="writing-grid">
+    {% for post in site.posts limit:3 %}
+    <div class="writing-card">
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+      <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+      <div class="tags">
+        {% for tag in post.tags %}
+        <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
   </div>
 </section>
 

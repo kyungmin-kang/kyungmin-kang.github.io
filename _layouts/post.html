@@ -1,9 +1,49 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-right">
+        <a href="/index.html#about">About</a>
+        <a href="/index.html#projects">Projects</a>
+        <a href="#footer-contact">Contact</a>
+        <a href="/resume.pdf" class="resume-btn">Resume</a>
+      </div>
+    </nav>
+  </header>
 
-<section class="blog-post">
-  <h1>{{ page.title }}</h1>
-  <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
-  {{ content }}
-</section>
+  <main>
+    <section class="blog-post">
+      <h1>{{ page.title }}</h1>
+      <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+      {{ content }}
+    </section>
+  </main>
+
+  <footer id="footer-contact">
+    <div class="footer-contact">
+      <p>© {{ site.time | date: "%Y" }} Kyungmin Kang. All rights reserved.</p>
+      <div class="contact-icons">
+        <a href="mailto:kyungmin.kang@outlook.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://github.com/kmkang" target="_blank">
+          <img src="/assets/img/github-mark.svg" alt="GitHub" class="icon" width="20" height="20"> GitHub
+        </a>
+        <a href="https://linkedin.com/in/kmkang" target="_blank">
+          <img src="/assets/img/linkedin-icon.svg" alt="LinkedIn" class="icon" width="20" height="20"> LinkedIn
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+

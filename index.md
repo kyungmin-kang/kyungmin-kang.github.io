@@ -11,8 +11,10 @@ title: Kyungmin Kang | Data Scientist & Economist
     </div>
     <div class="hero-right">
       <h1>Kyungmin Kang</h1>
-      <h2>Ph.D. Economist & Data Scientist</h2>
+      <h2>Economist & Data Scientist</h2>
       <p>Ph.D. in Economics, Johns Hopkins University</p>
+     <a href="mailto:kyungmin.kang@outlook.com"><i class="fas fa-envelope"></i> kyungmin.kang@outlook.com</a>
+
       <ul class="hero-skills">
         <li>Causal Inference & Machine Learning</li>
         <li>Dynamic Modeling & Structural Estimation</li>

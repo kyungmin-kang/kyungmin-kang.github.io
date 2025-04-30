@@ -34,6 +34,8 @@ body {
     font-weight: 600;
   }
   
+
+
   .hero {
     background: #fff;
     padding: 3rem 2rem;
@@ -230,3 +232,11 @@ body {
     display: block;
     margin: 0.3rem 0;
   }
+
+  .contact-icons img.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  

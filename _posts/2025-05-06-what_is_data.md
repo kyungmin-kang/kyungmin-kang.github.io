@@ -72,7 +72,7 @@ Variables here include both **numeric** (e.g. price) and **categorical** (e.g. r
 Some data has structure but doesn’t come in neat rows and columns. A common example is a **JSON file** that logs an online order:
 
 
-```
+
 {
   "order_id": 12345,
   "customer": {
@@ -86,7 +86,23 @@ Some data has structure but doesn’t come in neat rows and columns. A common ex
   "order_date": "2025-02-01",
   "shipped": false
 }
-```
+
+
+<!-- ```
+{
+  "order_id": 12345,
+  "customer": {
+    "name": "Alice Johnson",
+    "email": "alice@example.com"
+  },
+  "items": [
+    {"product": "Laptop", "price": 1199.99, "quantity": 1},
+    {"product": "Mouse", "price": 25.49, "quantity": 2}
+  ],
+  "order_date": "2025-02-01",
+  "shipped": false
+}
+``` -->
 
 <!-- THIS IS NECESSARY -->
 

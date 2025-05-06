@@ -71,7 +71,7 @@ Variables here include both **numeric** (e.g. price) and **categorical** (e.g. r
 
 Some data has structure but doesn’t come in neat rows and columns. A common example is a **JSON file** that logs an online order:
 
-```json
+```
 {
   "order_id": 12345,
   "customer": {
@@ -110,7 +110,7 @@ This data doesn’t come with clean rows and columns. An important point to reme
 The MNIST dataset, used in machine learning, contains thousands of handwritten digit images. Each image can be translated into a table of **pixel intensity values**-—where each pixel becomes a variable.
 
 <!-- ![MNIST DATA](/assets/blog/ARTWORK/mnist_digit_visualization.jpeg) -->
-<img src="/assets/blog/ARTWORK/your-image.jpg" alt="description" class="blog-inline-img">
+<img src="/assets/blog/ARTWORK/mnist_digit_visualization.jpeg" alt="description" class="blog-inline-img">
 
 
 | Digit   | ... |  px31 | px32  | px33  | px34  | px35  | px36  | px37  | px38  | px39  | px310 | ... | 

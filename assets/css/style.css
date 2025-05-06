@@ -438,3 +438,9 @@
     margin-bottom: 0.5rem;
   }
   
+  .blog-post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+  }

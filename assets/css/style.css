@@ -473,3 +473,17 @@
     background: none;
     color: inherit;
   }
+
+  /* Final override for all code blocks */
+pre, code, pre code {
+  background: #f3f4f6 !important;
+  color: #111827 !important;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  white-space: pre;
+  overflow-x: auto;
+  display: block;
+  padding: 1rem;
+  border-radius: 6px;
+}

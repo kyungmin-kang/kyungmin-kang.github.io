@@ -73,6 +73,15 @@ Some data has structure but doesn’t come in neat rows and columns. A common ex
 
 ```
 {
+  "test": "If you see this, it's fixed",
+  "value": 12345
+}
+```
+
+
+
+```
+{
   "order_id": 12345,
   "customer": {
     "name": "Alice Johnson",

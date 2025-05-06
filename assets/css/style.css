@@ -452,3 +452,24 @@
     margin: 2rem auto;
     border-radius: 8px;
   }
+
+  .blog-post pre {
+    background: #f3f4f6;
+    color: #111827;
+    padding: 1rem;
+    overflow-x: auto;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .blog-post code {
+    font-family: 'Source Code Pro', monospace;
+    background: transparent;
+    color: inherit;
+  }
+  
+  .blog-post pre code {
+    background: none;
+    color: inherit;
+  }

@@ -116,6 +116,8 @@ The MNIST dataset, used in machine learning, contains thousands of handwritten d
 | Digit   | ... |  px31 | px32  | px33  | px34  | px35  | px36  | px37  | px38  | px39  | px310 | ... | 
 |----|----|----|----|----|----|----|----|----|----|----|----|---|
 | 5  | ... | 0  | 0  | 0  | 36 | 170 | 253 | 225 | 242 | 0  | 0 | ... |
+
+
 This is what allows a model to learn what a “5” looks like—even without being explicitly told.
 
 ### Example: Converting Text to Numbers

@@ -86,7 +86,12 @@ Some data has structure but doesn’t come in neat rows and columns. A common ex
   "shipped": false
 }
 ```
+
+<!-- THIS IS NECESSARY -->
+
+
 We can conver this into structured data by flattening in into rows:
+
 | Order ID | Name | Email | Product | Price | Quantity | Date | Shipped | 
 |---|---|---|---|---|---|---|---|
 | 12345 | Alice Johnson | alice@example.com | Laptop | 1199.99 | 1 | 2025-02-01 | No |
@@ -104,7 +109,9 @@ This data doesn’t come with clean rows and columns. An important point to reme
 ### Example: Converting Image Data to Structured Format
 The MNIST dataset, used in machine learning, contains thousands of handwritten digit images. Each image can be translated into a table of **pixel intensity values**-—where each pixel becomes a variable.
 
-![MNIST DATA](/assets/blog/ARTWORK/mnist_digit_visualization.jpeg)
+<!-- ![MNIST DATA](/assets/blog/ARTWORK/mnist_digit_visualization.jpeg) -->
+<img src="/assets/blog/ARTWORK/your-image.jpg" alt="description" class="blog-inline-img">
+
 
 | Digit   | ... |  px31 | px32  | px33  | px34  | px35  | px36  | px37  | px38  | px39  | px310 | ... | 
 |----|----|----|----|----|----|----|----|----|----|----|----|---|

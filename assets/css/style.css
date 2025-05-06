@@ -454,7 +454,7 @@
   }
 
   .blog-post pre {
-    background: #f3f4f6;
+    background: #111827;
     color: #111827;
     padding: 1rem;
     overflow-x: auto;
@@ -466,7 +466,7 @@
   .blog-post code {
     font-family: 'Source Code Pro', monospace;
     background: transparent;
-    color: inherit;
+    color: #f3f4f6;
   }
   
   .blog-post pre code {
@@ -474,16 +474,3 @@
     color: inherit;
   }
 
-  /* Final override for all code blocks */
-pre, code, pre code {
-  background: #f3f4f6 !important;
-  color: #111827 !important;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  white-space: pre;
-  overflow-x: auto;
-  display: block;
-  padding: 1rem;
-  border-radius: 6px;
-}

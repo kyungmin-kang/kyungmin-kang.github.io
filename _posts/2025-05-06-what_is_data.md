@@ -71,14 +71,6 @@ Variables here include both **numeric** (e.g. price) and **categorical** (e.g. r
 
 Some data has structure but doesn’t come in neat rows and columns. A common example is a **JSON file** that logs an online order:
 
-```
-{
-  "test": "If you see this, it's fixed",
-  "value": 12345
-}
-```
-
-
 
 ```
 {

@@ -36,13 +36,13 @@ These steps are **iterative**—you often loop back, revise your ideas, or colle
 
 ```mermaid
 graph TD
-    A[Observation/Question] <--> B[Background Research]
-    B --> C[Construct a Hypothesis]
-    C --> D[Gather/Prepare Data]
-    D --> E[Analyze Results & Draw Conclusion]
-    E --> C
-    E --> F[Report Results]
-    F --> A
+A[Observation/Question] <--> B[Background Research]
+B --> C[Construct a Hypothesis]
+C --> D[Gather/Prepare Data]
+D --> E[Analyze Results & Draw Conclusion]
+E --> C
+E --> F[Report Results]
+F --> A
 ```
 
 ---
@@ -95,12 +95,12 @@ This gives you a clean, complete breakdown—-ready for data analysis.
 
 ```mermaid
 graph LR
-    A[Profit] --> B[Revenue]
-    A[Profit] --> C[Cost]
-    B[Revenue] --> D[Price]
-    B[Revenue] --> E[Quantity]
-    C[Cost] --> F[Fixed Cost]
-    C[Cost] --> G[Variable Cost]
+A[Profit] --> B[Revenue]
+A[Profit] --> C[Cost]
+B[Revenue] --> D[Price]
+B[Revenue] --> E[Quantity]
+C[Cost] --> F[Fixed Cost]
+C[Cost] --> G[Variable Cost]
 ``` 
 
 

@@ -92,12 +92,16 @@ Let’s say a company notices that profits are falling. To investigate:
 
 This gives you a clean, complete breakdown—-ready for data analysis.
 
-
-
+<pre>
 ```mermaid
-graph LR A[Profit] --> B[Revenue] A[Profit] --> C[Cost] B[Revenue] --> D[Price] B[Revenue] --> E[Quantity] C[Cost] --> F[Fixed Cost] C[Cost] --> G[Variable Cost]
+graph LR A[Profit] --> B[Revenue]
+A[Profit] --> C[Cost]
+B[Revenue] --> D[Price]
+B[Revenue] --> E[Quantity]
+C[Cost] --> F[Fixed Cost]
+C[Cost] --> G[Variable Cost]
 ``` 
-
+</pre>
 
 
 Now you can form **specific hypotheses**:

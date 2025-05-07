@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is Data 2"
+title: "What is Data"
 date: 2025-05-06
 excerpt: "How Everday Information Fuels Data Science."
 tags: [Data]

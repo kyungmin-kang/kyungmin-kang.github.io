@@ -87,12 +87,12 @@ My academic research focuses on causal evaluations of federal policies and dynam
       <div class="tags"><span>Python</span><span>RL</span><span>Dynamic Models</span></div>
       <div class="private-label">Code private</div>
     </div>
-    <div class="project-card private">
+    <!-- <div class="project-card private">
       <h4>PronounceGPT</h4>
       <p>Personalized Chinese pronunciation tutor with scoring and feedback.</p>
       <div class="tags"><span>React</span><span>Edge AI</span><span>Docker</span></div>
       <div class="private-label">Code private</div>
-    </div>
+    </div> -->
   </div>
 </section>
 

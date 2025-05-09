@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Is Data Science?"
-date: 2025-05-05
+date: 2025-05-08
 excerpt: "The Intersection of Data, Science, and Decision-Making"
 tags: [Data, Science, Data Science]
 ---

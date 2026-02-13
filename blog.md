@@ -20,7 +20,6 @@ title: Blog | KM Kang
     {% for post in sorted_posts %}
       <div class="writing-card" id="{{ post.tags[0] }}">
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
         <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
         <div class="tags">
           {% for tag in post.tags %}

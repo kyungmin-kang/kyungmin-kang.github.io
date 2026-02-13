@@ -55,7 +55,6 @@ My academic research focuses on causal evaluations of federal policies and dynam
     {% for post in site.posts limit:3 %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
-        <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
         <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
         <p>{{ post.tags | strip_html | truncate: 100}}</p>
       </li>
@@ -104,7 +103,6 @@ My academic research focuses on causal evaluations of federal policies and dynam
     {% for post in site.posts limit:3 %}
     <div class="writing-card">
       <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-      <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
       <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
       <div class="tags">
         {% for tag in post.tags %}
